@@ -148,12 +148,29 @@ int main(){
 // 1 2 3 4
     int n;
     cin >> n;
-    for (int row = 0; row < n; row++){
-        for (int col = 0; col < row+1; col++){
-            cout << col + 1 << " ";
-        }
-        cout << endl;
-    }
+    // for (int row = 0; row < n; row++){
+    //     for (int col = 0; col < row+1; col++){
+    //         cout << col + 1 << " ";
+    //     }
+    //     cout << endl;
+    // }
 
-  
- } 
+    //back counting
+
+    // for (int i = n; i >=1; i=i-1){
+    //     cout << i << endl;
+    // }
+
+
+//Factorial code
+    // int fact = 1;
+    // if(n < 0){
+    //     cout << "Number is negative" << endl;
+    // } else {
+    //     for (int i = 1; i <= n; i++){
+    //         fact = fact * i;
+           
+    //     }
+    //      cout << fact << endl;
+    // }
+}
