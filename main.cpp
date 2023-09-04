@@ -225,4 +225,13 @@ int main(){
     //         } else {
     //     cout << "C is gretar" << endl;
     // }
+
+    //Solid Sqaure
+
+    for (int row = 0; row <= 5; row++){
+        for (int col = 0; col <= 5; col++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
 }
