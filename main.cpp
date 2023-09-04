@@ -228,10 +228,23 @@ int main(){
 
     //Solid Sqaure
 
-    for (int row = 0; row <= 5; row++){
-        for (int col = 0; col <= 5; col++){
-            cout << "* ";
+    // for (int row = 0; row <= 5; row++){
+    //     for (int col = 0; col <= 5; col++){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+    //Hollow Square
+
+    for (int i = 0; i < 5; i++){
+        for (int j = 0; j < 5;j++){
+            if(j==0 && j==4){
+                cout << "* ";
+            } else {
+                cout << " ";
+            }
+            cout << endl;
         }
-        cout << endl;
     }
 }
