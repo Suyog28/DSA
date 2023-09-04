@@ -146,8 +146,8 @@ int main(){
 // 1 2
 // 1 2 3
 // 1 2 3 4
-    int n;
-    cin >> n;
+    // int n;
+    // cin >> n;
     // for (int row = 0; row < n; row++){
     //     for (int col = 0; col < row+1; col++){
     //         cout << col + 1 << " ";
@@ -172,5 +172,57 @@ int main(){
            
     //     }
     //      cout << fact << endl;
+    // }
+   
+    // int isPrime = true;
+
+    // if(n == 0 && n==1){
+    //     isPrime = false;
+    // }
+
+    // for (int i = 2; i <= n / 2; i++){
+    //     if(n%i==0){
+    //         isPrime = false;
+    //         break;
+    //     }
+    // }
+    // if(isPrime){
+    //     cout << "Number is Prime" << endl;
+
+    // } else{
+    //     cout << "Number is not prime" << endl;
+    // }
+
+// checking trigle is valid or not
+    // int a, b, c;
+    // cin >> a >> b >> c;
+    // if((a+b)> c && (b+c)>a && (a+c)>b){
+    //     cout << "Valid Trigle" << endl;
+    // } else {
+    //     cout << "Not A Valid Trigle" << endl;
+    // }
+
+
+//Print Even number from 1 to N 
+//     int n;
+//     cin >> n;
+
+//     int i = 2;
+//    while(i<=n){
+//        cout << i << endl;
+//        i = i + 2;
+//    }
+
+//find Max of three numbers
+
+    // int a, b, c;
+    // cin >> a >> b >> c;
+
+    // if(a>b && a>c){
+    //         cout << "A is gretar" << endl;
+    //     } else if(b>c){
+    //             cout << "B is gretar" << endl;
+    //         } else {
+    //     cout << "C is gretar" << endl;
     // }
 }
