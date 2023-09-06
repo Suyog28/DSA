@@ -236,15 +236,121 @@ int main(){
     // }
 
     //Hollow Square
+    // int n;
+    // cin >> n;
+    
+    
+    //Hollow Inverted Pyramid
 
-    for (int i = 0; i < 5; i++){
-        for (int j = 0; j < 5;j++){
-            if(j==0 && j==4){
-                cout << "* ";
-            } else {
-                cout << " ";
-            }
-            cout << endl;
-        }
-    }
+    // for (int row = 0; row <= n; row++){
+    //     for (int col = 0; col <= n;col++){
+    //         if(row == 0 || col==0 || col == n-row - 1){
+    //             cout << "*  ";
+    //         } else {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+//Full Pyramid
+    // int num ;
+    // int n = num / 2;
+    // cin >> n;
+
+    // for (int row = 0; row < n;row=row+1){
+    //     //spaces
+    //     for (int col = 0; col < n - row - 1;col=col+1){
+    //         cout << " ";
+    //     }
+    //     //Star
+    //     for (int col = 0; col < row + 1; col=col+1){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+//Inverted Pyramid
+    // for (int row = 0; row < n; row=row+1){
+    //     //Spaces
+    //     for (int col = 0; col < row; col=col+1){
+    //         cout << " ";
+    //     }
+
+    //     //Star
+    //     for (int col = 0; col < n - row; col=col+1){
+    //         cout << "* ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    //Diamond
+
+//  for (int row = 0; row < n;row=row+1){
+//         //spaces
+//         for (int col = 0; col < n - row - 1;col=col+1){
+//             cout << " ";
+//         }
+//         //Star
+//         for (int col = 0; col < row + 1; col=col+1){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+
+//      for (int row = 0; row < n; row=row+1){
+//         //Spaces
+//         for (int col = 0; col < row; col=col+1){
+//             cout << " ";
+//         }
+
+//         //Star
+//         for (int col = 0; col < n - row; col=col+1){
+//             cout << "* ";
+//         }
+
+//         cout << endl;
+//     }
+
+//Hollow Pyramid
+
+    int n;
+    cin >> n;
+
+    // for (int row = 0; row < n;row++){
+    //     //spaces
+    //     for (int col = 0; col < n - row - 1; col++){
+    //         cout << " ";
+    //     }
+    //     //Star
+    //     for (int col = 0; col < row + 1; col++){
+              
+    //         if(col==0 || col == row+1-1){
+    //       cout << "* ";
+    //          } else{
+    //            cout <<"  ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+    //Hollow Inverted Pyramid
+
+    // for (int row = 0; row < n; row=row+1){
+    //     //Spaces
+    //     for (int col = 0; col < row; col=col+1){
+    //         cout << " ";
+    //     }
+    //     //Star
+    //     for (int col = 0; col < n - row; col=col+1){
+    //         if(col == 0 || col == n-row-1){
+    //         cout << "* ";
+    //         } else{
+    //             cout << "  ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
 }
+
