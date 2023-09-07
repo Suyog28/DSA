@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
     //+ve, -Ve and zero finding
     // int num = -10;
@@ -15,8 +16,8 @@ int main(){
     // cout << "Number is zero" << endl;
     // }
 
-    //Odd and Even
-    // int num =4 ;
+    // Odd and Even
+    //  int num =4 ;
 
     // if(num%2==0){
     //     cout << "Number is even" << endl;
@@ -59,13 +60,11 @@ int main(){
     //     }
     // }
 
-
-    //Pattern
-    // * * * *
-    // * * * *
-    // * * * *
-    // * * * *
-
+    // Pattern
+    //  * * * *
+    //  * * * *
+    //  * * * *
+    //  * * * *
 
     // for (int i = 0; i < 3; i++){
     //     for (int j = 0; j < 6; j++){
@@ -74,12 +73,12 @@ int main(){
     //     cout << endl;
     // }
 
-    //Hollow Pattern
-    // * * * * * *
-    // *         *
-    // *         *
-    // *         *
-    // * * * * * *
+    // Hollow Pattern
+    //  * * * * * *
+    //  *         *
+    //  *         *
+    //  *         *
+    //  * * * * * *
 
     // for (int row = 0; row < 8;row=row+1){ //OuterLoop
     //     //InnerLoop
@@ -97,7 +96,7 @@ int main(){
     //     cout << endl;
     // }
 
-    //Half Pyramid
+    // Half Pyramid
 
     // *
     // **
@@ -112,7 +111,7 @@ int main(){
     //     cout << endl;
     // }
 
-    //Inverted Half Pyramid
+    // Inverted Half Pyramid
     //******
     //*****
     //****
@@ -128,12 +127,12 @@ int main(){
 
     // }
 
-//Inverted Pryamaid  of numbers
+    // Inverted Pryamaid  of numbers
 
-// 1 2 3 4
-// 1 2 3
-// 1 2
-// 1 
+    // 1 2 3 4
+    // 1 2 3
+    // 1 2
+    // 1
 
     // for (int row = 0; row < 5; row=row+1){
     //     for (int col = 0; col < 5 - row; col=col+1){
@@ -141,39 +140,38 @@ int main(){
     //     }
     //     cout << endl;
     // }
-//Pryamaid  of numbers
-// 1 
-// 1 2
-// 1 2 3
-// 1 2 3 4
-    // int n;
-    // cin >> n;
-    // for (int row = 0; row < n; row++){
-    //     for (int col = 0; col < row+1; col++){
-    //         cout << col + 1 << " ";
-    //     }
-    //     cout << endl;
-    // }
+    // Pryamaid  of numbers
+    //  1
+    //  1 2
+    //  1 2 3
+    //  1 2 3 4
+    //  int n;
+    //  cin >> n;
+    //  for (int row = 0; row < n; row++){
+    //      for (int col = 0; col < row+1; col++){
+    //          cout << col + 1 << " ";
+    //      }
+    //      cout << endl;
+    //  }
 
-    //back counting
+    // back counting
 
     // for (int i = n; i >=1; i=i-1){
     //     cout << i << endl;
     // }
 
+    // Factorial code
+    //  int fact = 1;
+    //  if(n < 0){
+    //      cout << "Number is negative" << endl;
+    //  } else {
+    //      for (int i = 1; i <= n; i++){
+    //          fact = fact * i;
 
-//Factorial code
-    // int fact = 1;
-    // if(n < 0){
-    //     cout << "Number is negative" << endl;
-    // } else {
-    //     for (int i = 1; i <= n; i++){
-    //         fact = fact * i;
-           
     //     }
     //      cout << fact << endl;
     // }
-   
+
     // int isPrime = true;
 
     // if(n == 0 && n==1){
@@ -193,7 +191,7 @@ int main(){
     //     cout << "Number is not prime" << endl;
     // }
 
-// checking trigle is valid or not
+    // checking trigle is valid or not
     // int a, b, c;
     // cin >> a >> b >> c;
     // if((a+b)> c && (b+c)>a && (a+c)>b){
@@ -202,18 +200,17 @@ int main(){
     //     cout << "Not A Valid Trigle" << endl;
     // }
 
+    // Print Even number from 1 to N
+    //      int n;
+    //      cin >> n;
 
-//Print Even number from 1 to N 
-//     int n;
-//     cin >> n;
+    //     int i = 2;
+    //    while(i<=n){
+    //        cout << i << endl;
+    //        i = i + 2;
+    //    }
 
-//     int i = 2;
-//    while(i<=n){
-//        cout << i << endl;
-//        i = i + 2;
-//    }
-
-//find Max of three numbers
+    // find Max of three numbers
 
     // int a, b, c;
     // cin >> a >> b >> c;
@@ -226,7 +223,7 @@ int main(){
     //     cout << "C is gretar" << endl;
     // }
 
-    //Solid Sqaure
+    // Solid Sqaure
 
     // for (int row = 0; row <= 5; row++){
     //     for (int col = 0; col <= 5; col++){
@@ -235,12 +232,11 @@ int main(){
     //     cout << endl;
     // }
 
-    //Hollow Square
-    // int n;
-    // cin >> n;
-    
-    
-    //Hollow Inverted Pyramid
+    // Hollow Square
+    //  int n;
+    //  cin >> n;
+
+    // Hollow Inverted Pyramid
 
     // for (int row = 0; row <= n; row++){
     //     for (int col = 0; col <= n;col++){
@@ -253,10 +249,10 @@ int main(){
     //     cout << endl;
     // }
 
-//Full Pyramid
-    // int num ;
-    // int n = num / 2;
-    // cin >> n;
+    // Full Pyramid
+    //  int num ;
+    //  int n = num / 2;
+    //  cin >> n;
 
     // for (int row = 0; row < n;row=row+1){
     //     //spaces
@@ -270,12 +266,12 @@ int main(){
     //     cout << endl;
     // }
 
-//Inverted Pyramid
-    // for (int row = 0; row < n; row=row+1){
-    //     //Spaces
-    //     for (int col = 0; col < row; col=col+1){
-    //         cout << " ";
-    //     }
+    // Inverted Pyramid
+    //  for (int row = 0; row < n; row=row+1){
+    //      //Spaces
+    //      for (int col = 0; col < row; col=col+1){
+    //          cout << " ";
+    //      }
 
     //     //Star
     //     for (int col = 0; col < n - row; col=col+1){
@@ -285,38 +281,35 @@ int main(){
     //     cout << endl;
     // }
 
-    //Diamond
+    // Diamond
 
-//  for (int row = 0; row < n;row=row+1){
-//         //spaces
-//         for (int col = 0; col < n - row - 1;col=col+1){
-//             cout << " ";
-//         }
-//         //Star
-//         for (int col = 0; col < row + 1; col=col+1){
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
+    //  for (int row = 0; row < n;row=row+1){
+    //         //spaces
+    //         for (int col = 0; col < n - row - 1;col=col+1){
+    //             cout << " ";
+    //         }
+    //         //Star
+    //         for (int col = 0; col < row + 1; col=col+1){
+    //             cout << "* ";
+    //         }
+    //         cout << endl;
+    //     }
 
-//      for (int row = 0; row < n; row=row+1){
-//         //Spaces
-//         for (int col = 0; col < row; col=col+1){
-//             cout << " ";
-//         }
+    //      for (int row = 0; row < n; row=row+1){
+    //         //Spaces
+    //         for (int col = 0; col < row; col=col+1){
+    //             cout << " ";
+    //         }
 
-//         //Star
-//         for (int col = 0; col < n - row; col=col+1){
-//             cout << "* ";
-//         }
+    //         //Star
+    //         for (int col = 0; col < n - row; col=col+1){
+    //             cout << "* ";
+    //         }
 
-//         cout << endl;
-//     }
+    //         cout << endl;
+    //     }
 
-//Hollow Pyramid
-
-    int n;
-    cin >> n;
+    // Hollow Pyramid
 
     // for (int row = 0; row < n;row++){
     //     //spaces
@@ -325,7 +318,7 @@ int main(){
     //     }
     //     //Star
     //     for (int col = 0; col < row + 1; col++){
-              
+
     //         if(col==0 || col == row+1-1){
     //       cout << "* ";
     //          } else{
@@ -335,7 +328,7 @@ int main(){
     //     cout << endl;
     // }
 
-    //Hollow Inverted Pyramid
+    // Hollow Inverted Pyramid
 
     // for (int row = 0; row < n; row=row+1){
     //     //Spaces
@@ -352,5 +345,88 @@ int main(){
     //     }
     //     cout << endl;
     // }
-}
 
+    // hollo diamond
+
+    //   for (int row = 0; row < n;row++){
+    //     //spaces
+    //     for (int col = 0; col < n - row - 1; col++){
+    //         cout << " ";
+    //     }
+    //     //Star
+    //     for (int col = 0; col < row + 1; col++){
+
+    //         if(col==0 || col == row+1-1){
+    //       cout << "* ";
+    //          } else{
+    //            cout <<"  ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+    //     for (int row = 0; row < n; row=row+1){
+    //     //Spaces
+    //     for (int col = 0; col < row; col=col+1){
+    //         cout << " ";
+    //     }
+    //     //Star
+    //     for (int col = 0; col < n - row; col=col+1){
+    //         if(col == 0 || col == n-row-1){
+    //         cout << "* ";
+    //         } else{
+    //             cout << "  ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+    // Flip Solid Pattern
+    int n;
+    cin >> n;
+
+    for (int row = 0; row < n; row = row + 1)
+    {
+        // Pyramid 1
+
+        for (int col = 0; col < n - row; col = col + 1)
+        {
+            cout << "*";
+        }
+
+        // Hellow Pyramid
+        for (int col = 0; col < 2 * row + 1; col = col + 1)
+        {
+            cout << " ";
+        }
+
+        // Pyramid 2
+        for (int col = 0; col < n - row; col = col + 1)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+
+    for (int row = 0; row < n; row = row + 1)
+    {
+        // Pyramid 1
+
+        for (int col = 0; col < row + 1; col = col + 1)
+        {
+            cout << "*";
+        }
+
+        // Hellow Pyramid
+        for (int col = 0; col < (2 * n) - (2 * row) - 1; col = col + 1)
+        {
+            cout << " ";
+        }
+
+        // Pyramid 2
+        for (int col = 0; col < row + 1; col = col + 1)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
