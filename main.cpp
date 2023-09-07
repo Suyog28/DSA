@@ -381,52 +381,131 @@ int main()
     // }
 
     // Flip Solid Pattern
+    // int n;
+    // cin >> n;
+
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     // Pyramid 1
+
+    //     for (int col = 0; col < n - row; col = col + 1)
+    //     {
+    //         cout << "*";
+    //     }
+
+    //     // Hellow Pyramid
+    //     for (int col = 0; col < 2 * row + 1; col = col + 1)
+    //     {
+    //         cout << " ";
+    //     }
+
+    //     // Pyramid 2
+    //     for (int col = 0; col < n - row; col = col + 1)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     // Pyramid 1
+
+    //     for (int col = 0; col < row + 1; col = col + 1)
+    //     {
+    //         cout << "*";
+    //     }
+
+    //     // Hellow Pyramid
+    //     for (int col = 0; col < (2 * n) - (2 * row) - 1; col = col + 1)
+    //     {
+    //         cout << " ";
+    //     }
+
+    //     // Pyramid 2
+    //     for (int col = 0; col < row + 1; col = col + 1)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << endl;
+    // }
+
+    // Fancy Pattern
+    //  1
+    //  2*2
+    //  3*3*3
+    //  4*4*4*4
+
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     for (int col = 0; col < 2 * row + 1; col = col + 1)
+    //     {
+    //         if (col % 2 == 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << row + 1;
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+    // Fill Fancy Pattern
+
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     for (int col = 0; col < 2 * row + 1; col = col + 1)
+    //     {
+    //         if (col % 2 == 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << row + 1;
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     for (int col = 0; col < 2 * n - 2 * row - 1; col = col + 1)
+    //     {
+    //         if (col % 2 == 1)
+    //         {
+    //             cout << "*";
+    //         }
+    //         else
+    //         {
+    //             cout << row + 1;
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
     int n;
     cin >> n;
 
     for (int row = 0; row < n; row = row + 1)
     {
-        // Pyramid 1
-
         for (int col = 0; col < n - row; col = col + 1)
-        {
-            cout << "*";
-        }
-
-        // Hellow Pyramid
-        for (int col = 0; col < 2 * row + 1; col = col + 1)
-        {
-            cout << " ";
-        }
-
-        // Pyramid 2
-        for (int col = 0; col < n - row; col = col + 1)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
-
-    for (int row = 0; row < n; row = row + 1)
-    {
-        // Pyramid 1
-
-        for (int col = 0; col < row + 1; col = col + 1)
-        {
-            cout << "*";
-        }
-
-        // Hellow Pyramid
-        for (int col = 0; col < (2 * n) - (2 * row) - 1; col = col + 1)
-        {
-            cout << " ";
-        }
-
-        // Pyramid 2
-        for (int col = 0; col < row + 1; col = col + 1)
-        {
-            cout << "*";
-        }
+            if (row == 0 || row == n - 1)
+            {
+                cout << "*";
+            }
+            else
+            {
+                if (col == 0 || col == n - row - 1)
+                {
+                    cout << "*";
+                }
+                else
+                {
+                    cout << " ";
+                }
+            }
         cout << endl;
     }
 }
