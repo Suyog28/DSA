@@ -485,8 +485,8 @@ int main()
     //     cout << endl;
     // }
 
-    int n;
-    cin >> n;
+    // int n;
+    // cin >> n;
 
     // for (int row = 0; row < n; row = row + 1)
     // {
@@ -508,4 +508,25 @@ int main()
     //         }
     //     cout << endl;
     //}
+
+    // Pre-Increment and Post-Increment
+    //  int a = 10;
+    //  cout << ++a * a++ << endl;
+
+    // Implicit Type casting - One Datatype to Other Datatype
+    //  int a = 10;
+    //  float b = 5.5;
+    //  float result = a + b;
+    //  cout << result << endl;
+
+    // int Ch = 'A';
+    // int a = Ch+1;
+    // cout << a << endl;
+
+    // Explicit type casting
+
+    int a = 10;
+    float b = 5.5;
+    float result = a + (int)b;
+    cout << result << endl;
 }
