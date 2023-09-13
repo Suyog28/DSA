@@ -525,8 +525,12 @@ int main()
 
     // Explicit type casting
 
-    int a = 10;
-    float b = 5.5;
-    float result = a + (int)b;
-    cout << result << endl;
+    // int a = 10;
+    // float b = 5.5;
+    // float result = a + (int)b;
+    // cout << result << endl;
+
+
+
+
 }
