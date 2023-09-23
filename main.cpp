@@ -530,7 +530,43 @@ int main()
     // float result = a + (int)b;
     // cout << result << endl;
 
+    // Numeric Hollow Pyramid
+    //  1
+    //  1 2
+    //  1   3
+    //  1     4
+    //  1 2 3 4 5
 
+    // int n;
+    // cin >> n;
 
+    // for (int row = 0; row < n; row = row + 1)
+    // {
+    //     for (int col = 0; col <= row; col = col + 1)
+    //     {
+    //         if (col == 0 || col == row || row == n - 1)
+    //         {
+    //             cout << col + 1;
+    //         }
+    //         else
+    //         {
+    //             cout << " ";
+    //         }
+    //     }
+    //     cout << endl;
+    // }
 
+    // 1 2 3 4 5
+    // 2     5
+    // 3    5
+    // 4  5
+    // 5
+
+    //
+    // Pallimdrom Pyramid
+    //      1
+    //     1 2 1
+    //   1 2 3 2 1
+
+    
 }
